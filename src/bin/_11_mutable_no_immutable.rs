@@ -3,6 +3,8 @@
     Read-write reference
     Mutable borrows
     Por que este código funciona?
+
+    see more @ https://stackoverflow.com/questions/50251487/what-are-non-lexical-lifetimes
 */
 fn main() {
     let mut a = "Esta string é constante?".to_string();
